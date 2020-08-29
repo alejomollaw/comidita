@@ -1,3 +1,7 @@
 .content__banner {
     width: 90vw;
 }
+/* Clase que no andaba */
+.content__h2 {
+    color: red;
+}
