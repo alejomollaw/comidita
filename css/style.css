@@ -1,0 +1,82 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower' ;
+}
+
+body {
+    background-color: #CEF6EC;
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: #01A9DB;
+    height: 4.5em;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.nav__title {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2.5em;
+    vertical-align: middle;
+    margin-left: 0.4em;
+}
+
+.nav__ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 74vw;
+}
+
+.nav__li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.nav__li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav__li a:hover {
+    color: #ff8000;
+}
+
+.nav__title:hover {
+    color: #ffff00;
+}
+
+/* Content Style*/
+.content {
+    background-color: #ffffff;
+    min-height: 76.5vh;
+    margin: 1em;
+}
+
+/* Footer */
+.footer {
+    background-color: #01A9DB;
+    height: 3.7em;
+    position: relative;
+    bottom: 0%;
+    padding: 1.2em;
+}
+
+.footer__p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer__p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer__p a:hover {
+    color: #ff8000;
+}
